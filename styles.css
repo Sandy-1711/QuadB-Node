@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.mainPage {
+    color: white;
+    min-height: 100dvh;
+    width: 100dvw;
+    background-color: #191d28;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-items: space-around; */
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    padding-top: 2rem;
+}
+
+.header h1 {
+    color: #6ccacb;
+
+    font-size: 3.5rem;
+}
+
+.middleSection {
+    padding: 3rem 0 0 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-weight: 400;
+}
+
+.connect {
+    background-color: #6ccacb;
+    font-weight: 600;
+}
+
+.middleSection h1 {
+    font-size: 5rem;
+    font-weight: 400;
+}
+
+.middleSection h2 {
+    color: #6ccacb;
+
+}
+
+.middleSection span {
+    opacity: 0.45;
+    font-size: 1.5rem;
+}
+
+button {
+    padding: .5rem 1.5rem;
+    font-size: 1rem;
+    margin: 0 .5rem;
+    border-radius: .75rem;
+    outline: none;
+    border: none;
+    background-color: #2e3241;
+    color: white;
+    font-weight: 600;
+}
+
+table {
+    width: 95%;
+    margin: auto;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    border-collapse: separate;
+}
+
+th {
+    font-family: Oswald;
+    opacity: 0.45;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+
+}
+
+tr {
+    font-size: 1.75rem;
+    color: rgb(210, 210, 210);
+    font-weight: 600;
+
+}
+
+td {
+    padding: 0.3rem 0.5rem;
+
+}
+
+td:first-child {
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+td:last-child {
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+tr:nth-child(2) {
+    background-color: #2e3241;
+}
+
+tr:nth-child(3) {
+    background-color: #2e3241;
+}
+
+tr:nth-child(4) {
+    background-color: #2e3241;
+}
+
+tr:nth-child(5) {
+    background-color: #2e3241;
+}
+
+tr:nth-child(6) {
+    background-color: #2e3241;
+}
+
+tr:nth-child(7) {
+    background-color: #2e3241;
+}
+
+tr:nth-child(8) {
+    background-color: #2e3241;
+}
+
+tr:nth-child(9) {
+    background-color: #2e3241;
+}
+
+tr:nth-child(10) {
+    background-color: #2e3241;
+}
+
+tr:nth-child(11) {
+    background-color: #2e3241;
+}
